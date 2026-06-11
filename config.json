@@ -1,0 +1,37 @@
+{
+  "_comment_keywords": "Filter für RSS-Artikel. Match wenn IRGENDEINS dieser Wörter im Titel/Inhalt vorkommt. Gross/Kleinschreibung egal.",
+  "keywords": [
+    "schweiz",
+    "swiss",
+    "nati",
+    "sfv",
+    "yakin",
+    "embolo",
+    "shaqiri",
+    "xhaka",
+    "akanji",
+    "sommer",
+    "freuler",
+    "rodriguez",
+    "vargas",
+    "ndoye",
+    "amdouni",
+    "wm",
+    "weltmeisterschaft",
+    "world cup",
+    "fifa",
+    "fussball-wm"
+  ],
+  "_comment_competition": "Wettbewerbs-Code von football-data.org. WC = FIFA World Cup. Andere: EC = EURO, CL = Champions League.",
+  "competition": "WC",
+  "_comment_teamMatch": "Strings die im Teamnamen vorkommen müssen damit ein Match als 'Schweizer Spiel' gilt. Beide Sprachen drin falls die API mal switcht.",
+  "teamMatch": ["switzerland", "schweiz"],
+  "_comment_sources": "Aktuell nur SRF Sport. Weitere Feeds kannst du hier eintragen — der BBC/Blick-Code ist generisch.",
+  "sources": [
+    {
+      "name": "SRF Sport",
+      "url": "https://www.srf.ch/news/bnf/rss/1922",
+      "enabled": true
+    }
+  ]
+}
