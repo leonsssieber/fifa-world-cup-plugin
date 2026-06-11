@@ -3,10 +3,11 @@
   "version": "2.0.0",
   "private": true,
   "type": "module",
-  "description": "Postet SRF News zur Schweizer Nati und Live-Tore bei WM-Spielen in einen Discord-Channel. Läuft lokal oder als Vercel Cron.",
+  "description": "Postet SRF News zur Schweizer Nati und Live-Tore bei WM-Spielen in einen Discord-Channel. Lokal oder als GitHub Actions Cron.",
   "scripts": {
     "dev": "node src/local.js",
-    "start": "node src/local.js"
+    "start": "node src/local.js",
+    "cron": "node src/cli.js"
   },
   "dependencies": {
     "@upstash/redis": "^1.34.3",
